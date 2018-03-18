@@ -1,0 +1,158 @@
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 24px;
+  background: url(../images/lake.jpg) whitesmoke;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box {
+  position: fixed;
+  width: 100%;
+  height: 67px;
+  top: 0;
+  background-color: #ffffff;
+  border-bottom: 2px solid #cccccc;
+}
+
+
+#nameBox {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  left: 15%;
+  width: 18%;
+  height: 67px;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: #4aaaa5;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 12%;
+  width: 35%; 
+  color: #dddddd;
+}
+
+.navItems {
+padding: 20px;
+font-size: 18px;
+height: 67px;
+color: #dddddd;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+.navItems:hover {
+
+  background-color: blue;
+}
+
+img {
+  width: 240px;
+  height: 200px;
+  float: left;
+}
+
+.container {
+  padding: 2% 20%;
+  margin-top: 65px;
+  width: 960px;
+  
+}
+
+.main {
+  background-color: #ffffff;
+  padding: 30px;
+  overflow:auto;
+  border: 2px solid #dddddd;
+}
+
+.mainHeading {
+  border-bottom: 4px solid #dddddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+  font-weight: bolder;
+}
+
+
+#aboutMe{
+  height: 200px;
+  width: 200px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+.imgBox {
+  position: relative;
+  width: 240px;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.imgText{
+  position: absolute;
+  width: 220px;
+  height: 30px;
+  background-color: #4aaaa5;
+  top: 140px;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+.grow:hover { 
+  transform: scale(1.1); 
+}
+p {
+  line-height: 150%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #666666;
+  border-top: 10px solid #4aaaa5;
+  font-size: 16px;
+}
+
+label {
+  color: #dddddd;
+}
+
+textarea {
+  border-color: #dddddd;
+}
+.formInfo {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#person, #email {
+  width: 100%;
+  height: 35px;
+
+}
+
+#message {
+  width: 100%;
+  height: 150px;
+
+}
